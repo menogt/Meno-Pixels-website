@@ -148,7 +148,7 @@ export default function Packages() {
                 ))}
               </ul>
 
-              <a href="https://wa.me/947XXXXXXXX" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/94783780057" target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 hover:scale-105"
                 style={p.popular ? {
                   background: "linear-gradient(135deg,#EC4899,#8B5CF6)",

@@ -1,5 +1,5 @@
 "use client";
-import { Zap, Mail, Globe } from "lucide-react";
+import {  Mail, Globe, Phone } from "lucide-react";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -16,22 +16,25 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-10">
           {/* Brand */}
           <div>
-            <a href="#" className="flex items-center gap-2 mb-3 group">
-              <div className="w-7 h-7 rounded-lg flex items-center justify-center"
-                style={{ background: "linear-gradient(135deg, #8B5CF6, #EC4899)" }}>
-                <Zap size={14} className="text-white" strokeWidth={2.5} />
-              </div>
-              <span className="font-bold text-base tracking-tight text-white">
-                Meno<span className="gradient-text">Pixels</span>
-              </span>
+            // REPLACE with:
+            <a href="#" className="block mb-3">
+              <img
+                src="/logo-long.png"
+                alt="Meno Pixels"
+                className="h-8 w-auto object-contain"
+              />
             </a>
             <p className="text-sm text-slate-500 max-w-xs">
               Web & E-commerce Studio · Sri Lanka
             </p>
             <div className="mt-3 flex items-center gap-4 text-sm text-slate-500">
-              <a href="mailto:hello@menopixels.studio" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
+              <a href="mailto:menopixels@gmail.com" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
                 <Mail size={13} />
-                hello@menopixels.studio
+                menopixels@gmail.com
+              </a>
+              <a href="tel:+94773268999" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
+              <Phone size={13} />
+              +94 77 326 8999
               </a>
               <a href="#" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
                 <Globe size={13} />

@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -32,16 +32,14 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16 lg:h-18">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <div className="w-7 h-7 rounded-lg flex items-center justify-center relative overflow-hidden"
-            style={{ background: "linear-gradient(135deg, #8B5CF6, #EC4899)" }}>
-            <Zap size={14} className="text-white" strokeWidth={2.5} />
-          </div>
-          <span className="font-bold text-base tracking-tight text-white">
-            Meno<span className="gradient-text">Pixels</span>
-          </span>
+        // REPLACE with this:
+        <a href="#">
+          <img
+            src="/logo-long.png"
+            alt="Meno Pixels"
+            className="h-8 w-auto object-contain"
+          />
         </a>
-
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-7">
           {links.map((l) => (
@@ -58,7 +56,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://wa.me/947XXXXXXXX"
+          href="https://wa.me/94783780057"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
