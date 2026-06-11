@@ -10,7 +10,7 @@ const webProjects = [
     desc: "An AI-driven travel planner that generates personalised Sri Lanka itineraries in seconds. Built with React, TypeScript, and Groq's LLM API with PDF export.",
     url: "https://wanderroute.netlify.app/",
     tags: ["React", "TypeScript", "AI / Groq", "Tailwind"],
-    accent: "#8B5CF6",
+    accent: "#FF3B30",
     category: "Web App",
   },
   {
@@ -19,7 +19,7 @@ const webProjects = [
     desc: "A fully designed tour booking website concept for Sri Lanka travel brands — with tour listings, booking flows, and a clean conversion-focused layout.",
     url: "https://wanderquest-tour-booking.vercel.app/",
     tags: ["Next.js", "Booking UI", "Tourism", "Vercel"],
-    accent: "#06B6D4",
+    accent: "#FF6B6B",
     category: "Tourism",
   },
   {
@@ -28,7 +28,7 @@ const webProjects = [
     desc: "A dark-themed gaming platform UI featuring esports tournament listings, leaderboards, and a community-focused layout built for the MLBB gaming niche.",
     url: "https://meno-arena.vercel.app/",
     tags: ["React", "Gaming UI", "Dark Theme", "Vercel"],
-    accent: "#EC4899",
+    accent: "#DC2626",
     category: "Gaming",
   },
 ];
@@ -39,56 +39,56 @@ const videoProjects = [
     desc: "Motion graphics promo for a digital marketing agency — AI voiceover, dynamic text reveals, and brand identity motion.",
     url: "https://www.youtube.com/shorts/wagatGentJw",
     thumb: "https://img.youtube.com/vi/wagatGentJw/hqdefault.jpg",
-    accent: "#8B5CF6",
+    accent: "#FF3B30",
   },
   {
     title: "Hotel Booking Site Promo",
     desc: "Promotional short video for a hotel booking platform with smooth UI mockup animations and motion graphics.",
     url: "https://www.youtube.com/shorts/9wn5Ji7Y9HA",
     thumb: "https://img.youtube.com/vi/9wn5Ji7Y9HA/hqdefault.jpg",
-    accent: "#06B6D4",
+    accent: "#FF6B6B",
   },
   {
     title: "E-Commerce UI Mockup Animation",
     desc: "Full UI mockup animation and vector motion for an e-commerce platform — showcasing product cards, cart flow, and checkout.",
     url: "https://www.youtube.com/watch?v=fj4X9E_dRQc",
     thumb: "https://img.youtube.com/vi/fj4X9E_dRQc/maxresdefault.jpg",
-    accent: "#EC4899",
+    accent: "#DC2626",
   },
   {
     title: "E-Commerce Style Promo Video",
     desc: "High-energy promo video sample in e-commerce style — fast cuts, product highlights, and branded motion overlays.",
     url: "https://www.youtube.com/watch?v=lDl2oOGEckY",
     thumb: "https://img.youtube.com/vi/lDl2oOGEckY/maxresdefault.jpg",
-    accent: "#F59E0B",
+    accent: "#FF4444",
   },
   {
     title: "E-Commerce Vector Animation",
     desc: "Clean vector animation for an e-commerce brand — smooth transitions, illustrated product scenes, and motion storytelling.",
     url: "https://www.youtube.com/watch?v=I-ifqjG53xw",
     thumb: "https://img.youtube.com/vi/I-ifqjG53xw/maxresdefault.jpg",
-    accent: "#8B5CF6",
+    accent: "#FF3B30",
   },
   {
     title: "Website Promo Video",
     desc: "Promotional video designed to showcase a website launch — screen recordings, animated overlays, and branded transitions.",
     url: "https://www.youtube.com/watch?v=UzdwLQtLVYQ",
     thumb: "https://img.youtube.com/vi/UzdwLQtLVYQ/maxresdefault.jpg",
-    accent: "#06B6D4",
+    accent: "#FF6B6B",
   },
   {
     title: "Knife Promo Short",
     desc: "Fast-paced product promo short for a knife brand — dramatic lighting effects, sharp cuts, and strong product focus.",
     url: "https://www.youtube.com/shorts/O12OTBM2qcU",
     thumb: "https://img.youtube.com/vi/O12OTBM2qcU/hqdefault.jpg",
-    accent: "#EC4899",
+    accent: "#DC2626",
   },
   {
     title: "TikTok / YouTube Gaming Reels",
     desc: "Gaming reel content for TikTok and YouTube Shorts — MLBB highlights, meme edits, and fast-format entertainment edits.",
     url: "#",
     thumb: "",
-    accent: "#F59E0B",
+    accent: "#FF4444",
   },
 ];
 
@@ -134,7 +134,7 @@ export default function Work() {
                     : "text-slate-400 hover:text-slate-200"
                 }`}
                 style={tab === t.id ? {
-                  background: "linear-gradient(135deg,#8B5CF6,#EC4899)",
+                  background: "linear-gradient(135deg,#FF3B30,#DC2626)",
                   boxShadow: "0 4px 15px rgba(139,92,246,0.3)"
                 } : {}}
               >

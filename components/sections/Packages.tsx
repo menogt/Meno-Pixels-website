@@ -16,7 +16,7 @@ const packages = [
       "Google Maps embed",
       "1 month support",
     ],
-    accent: "#8B5CF6",
+    accent: "#FF3B30",
     popular: false,
   },
   {
@@ -33,7 +33,7 @@ const packages = [
       "Speed optimisation",
       "3 months support",
     ],
-    accent: "#EC4899",
+    accent: "#DC2626",
     popular: true,
   },
   {
@@ -49,7 +49,7 @@ const packages = [
       "Mobile-optimised checkout",
       "3 months support",
     ],
-    accent: "#06B6D4",
+    accent: "#FF6B6B",
     popular: false,
   },
   {
@@ -66,7 +66,7 @@ const packages = [
       "Multi-language ready",
       "3 months support",
     ],
-    accent: "#F59E0B",
+    accent: "#FF4444",
     popular: false,
   },
 ];
@@ -108,13 +108,13 @@ export default function Packages() {
               transition={{ duration: 0.6, delay: i * 0.1 }}
               whileHover={{ y: -5 }}
               className={`relative glass glass-hover gradient-border rounded-2xl p-6 flex flex-col transition-all duration-300 ${
-                p.popular ? "ring-1 ring-pink-500/30" : ""
+                p.popular ? "ring-1 ring-red-500/30" : ""
               }`}
             >
               {p.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                   <span className="px-4 py-1 rounded-full text-xs font-bold text-white"
-                    style={{ background: "linear-gradient(135deg,#EC4899,#8B5CF6)" }}>
+                    style={{ background: "linear-gradient(135deg,#DC2626,#FF3B30)" }}>
                     Most Popular
                   </span>
                 </div>
@@ -151,7 +151,7 @@ export default function Packages() {
               <a href="https://wa.me/94783780057" target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 hover:scale-105"
                 style={p.popular ? {
-                  background: "linear-gradient(135deg,#EC4899,#8B5CF6)",
+                  background: "linear-gradient(135deg,#DC2626,#FF3B30)",
                   color: "white",
                   boxShadow: "0 4px 20px rgba(236,72,153,0.3)"
                 } : {

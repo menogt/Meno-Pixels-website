@@ -13,7 +13,7 @@ export default function CTA() {
         {/* Glow behind */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-[600px] h-[300px] rounded-full animate-pulse-glow"
-            style={{ background: "radial-gradient(ellipse, rgba(139,92,246,0.15), rgba(236,72,153,0.08), transparent 70%)", filter: "blur(40px)" }} />
+            style={{ background: "radial-gradient(ellipse, rgba(255,59,48,0.12), rgba(220,38,38,0.06), transparent 70%)", filter: "blur(40px)" }} />
         </div>
 
         <motion.div
@@ -24,9 +24,9 @@ export default function CTA() {
         >
           {/* Corner accent */}
           <div className="absolute top-0 right-0 w-64 h-64 rounded-full opacity-10"
-            style={{ background: "radial-gradient(circle, #8B5CF6, transparent 70%)", transform: "translate(30%, -30%)" }} />
+            style={{ background: "radial-gradient(circle, #FF3B30, transparent 70%)", transform: "translate(30%, -30%)" }} />
           <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full opacity-10"
-            style={{ background: "radial-gradient(circle, #EC4899, transparent 70%)", transform: "translate(-30%, 30%)" }} />
+            style={{ background: "radial-gradient(circle, #DC2626, transparent 70%)", transform: "translate(-30%, 30%)" }} />
 
           <motion.div initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ delay: 0.2 }}>
             <span className="tag mb-6 inline-flex">

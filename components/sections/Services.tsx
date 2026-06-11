@@ -9,24 +9,24 @@ const main = [
     title: "Business Websites",
     desc: "Modern, fast, conversion-focused websites for local businesses, restaurants, service providers, and personal brands. Built to rank on Google and impress clients.",
     tags: ["WordPress", "Custom HTML/CSS", "SEO Ready", "Mobile-First"],
-    gradient: "from-violet-600/20 to-purple-900/10",
-    accent: "#8B5CF6",
+    gradient: "from-red-600/15 to-red-900/10",
+    accent: "#DC2626",
   },
   {
     icon: ShoppingBag,
     title: "E-commerce Store Setup",
     desc: "Shopify and WooCommerce stores with product pages, homepage structure, basic SEO, and a layout designed to convert visitors into buyers — not just window shoppers.",
     tags: ["Shopify", "WooCommerce", "Product Setup", "Conversion Layout"],
-    gradient: "from-pink-600/20 to-rose-900/10",
-    accent: "#EC4899",
+    gradient: "from-red-500/15 to-red-800/10",
+    accent: "#FF3B30",
   },
   {
     icon: MapPin,
     title: "Tourism Digital Presence",
     desc: "Websites for hotels, villas, restaurants, tour operators, and travel businesses — with gallery, WhatsApp booking, Google Maps, and a clear inquiry flow that gets you direct bookings.",
     tags: ["Gallery", "WhatsApp Booking", "Google Maps", "Inquiry Flow"],
-    gradient: "from-cyan-600/20 to-blue-900/10",
-    accent: "#06B6D4",
+    gradient: "from-red-400/10 to-red-700/10",
+    accent: "#FF6B6B",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function Services() {
             {supporting.map(s => (
               <div key={s.label} className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-colors">
                 <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "rgba(139,92,246,0.12)" }}>
-                  <s.icon size={16} className="text-purple-400" />
+                  <s.icon size={16} className="text-red-400" />
                 </div>
                 <span className="text-sm text-slate-300 font-medium">{s.label}</span>
               </div>

@@ -18,7 +18,7 @@ export default function MouseGlow() {
       ref={glowRef}
       className="pointer-events-none fixed top-0 left-0 z-0 w-[600px] h-[600px] rounded-full transition-transform duration-700 ease-out"
       style={{
-        background: "radial-gradient(circle, rgba(139,92,246,0.07) 0%, rgba(236,72,153,0.04) 40%, transparent 70%)",
+        background: "radial-gradient(circle, rgba(255,59,48,0.07) 0%, rgba(220,38,38,0.04) 40%, transparent 70%)",
         willChange: "transform",
       }}
     />

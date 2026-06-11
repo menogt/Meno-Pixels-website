@@ -1,5 +1,5 @@
 "use client";
-import {  Mail, Globe, Phone } from "lucide-react";
+import { Mail, Globe, Phone } from "lucide-react";
 
 const links = [
   { label: "Services", href: "#services" },
@@ -16,7 +16,6 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-10">
           {/* Brand */}
           <div>
-            // REPLACE with:
             <a href="#" className="block mb-3">
               <img
                 src="/logo-long.png"
@@ -27,16 +26,16 @@ export default function Footer() {
             <p className="text-sm text-slate-500 max-w-xs">
               Web & E-commerce Studio · Sri Lanka
             </p>
-            <div className="mt-3 flex items-center gap-4 text-sm text-slate-500">
+            <div className="mt-3 flex flex-col gap-2 text-sm text-slate-500">
               <a href="mailto:menopixels@gmail.com" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
                 <Mail size={13} />
                 menopixels@gmail.com
               </a>
               <a href="tel:+94773268999" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
-              <Phone size={13} />
-              +94 77 326 8999
+                <Phone size={13} />
+                +94 77 326 8999
               </a>
-              <a href="#" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
+              <a href="https://menopixels.studio" className="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
                 <Globe size={13} />
                 menopixels.studio
               </a>

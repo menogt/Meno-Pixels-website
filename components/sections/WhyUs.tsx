@@ -8,37 +8,37 @@ const points = [
     icon: Layers,
     title: "Web + design + e-commerce in one place",
     desc: "You don't need to hire a separate designer, developer, and SEO person. One studio handles everything.",
-    accent: "#8B5CF6",
+    accent: "#FF3B30",
   },
   {
     icon: Target,
     title: "Built for tourism and local businesses",
     desc: "Not a generic template shop. Meno Pixels specialises in the kinds of businesses that serve real customers in Sri Lanka.",
-    accent: "#EC4899",
+    accent: "#DC2626",
   },
   {
     icon: Smartphone,
     title: "Mobile-first, conversion-focused",
     desc: "Every site is built for the way people actually browse — on their phones — and designed to convert, not just look good.",
-    accent: "#06B6D4",
+    accent: "#FF6B6B",
   },
   {
     icon: Palette,
     title: "Clean modern visuals",
     desc: "No dated templates. No clip-art. Every site looks like it was designed in 2025 — because it was.",
-    accent: "#F59E0B",
+    accent: "#FF4444",
   },
   {
     icon: Cpu,
     title: "AI-assisted content & faster delivery",
     desc: "AI handles first drafts of copy, freeing time to focus on quality, structure, and design. Faster turnaround without cutting corners.",
-    accent: "#10B981",
+    accent: "#FF5555",
   },
   {
     icon: HeadphonesIcon,
     title: "Simple support after launch",
     desc: "Every package includes post-launch support. If something breaks or needs updating, you don't get left figuring it out alone.",
-    accent: "#F43F5E",
+    accent: "#CC2020",
   },
 ];
 

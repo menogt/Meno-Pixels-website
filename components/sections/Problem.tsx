@@ -9,25 +9,25 @@ const problems = [
     icon: WifiOff,
     title: "No proper website",
     desc: "Customers can't find you, don't trust you, and choose competitors who look more professional online.",
-    color: "#EC4899",
+    color: "#FF3B30",
   },
   {
     icon: Smartphone,
     title: "Poor mobile experience",
     desc: "70%+ of travelers browse on mobile. A slow, broken mobile site means lost bookings before they start.",
-    color: "#8B5CF6",
+    color: "#DC2626",
   },
   {
     icon: Calendar,
     title: "No booking or inquiry flow",
     desc: "Making customers copy a phone number and call manually costs you every spontaneous booking.",
-    color: "#06B6D4",
+    color: "#FF6B6B",
   },
   {
     icon: MapPin,
     title: "Weak Google presence",
     desc: "If you don't show up on Google Maps and Search, you don't exist to the tourists actively looking.",
-    color: "#F59E0B",
+    color: "#FF4444",
   },
 ];
 
